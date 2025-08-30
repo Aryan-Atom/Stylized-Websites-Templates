@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins Light";
+  color: #333;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #f7f7f2;
+}
+#nav-part-1 {
+  height: 60px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  padding: 0px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav-logo {
+  display: flex;
+  gap: 0.4px;
+}
+
+.circle-logo {
+  width: 20px;
+  height: 20px;
+  background-color: #333;
+  border-radius: 50%;
+}
+#nav-part1-content {
+  display: flex;
+  gap: 30px;
+}
+#nav-part-2 {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  padding: 0px 30px;
+  align-items: center;
+  gap: 60px;
+  font-size: 15px;
+}
+#hero-section{
+  /* background-color: aqua; */
+  width: 100%;
+  height: calc(100% - 120px);
+}
+#text-content{
+  height: 50%;
+  width: 100%;
+  /* background-color: burlywood; */
+  display:flex ;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+#text-content::-webkit-scrollbar{
+ background-color: transparent;
+ height: 7px;
+}
+#text-content::-webkit-scrollbar-thumb{
+ background-color: orangered;
+ border-radius: 20px;
+}
+.elem{
+  flex-shrink: 0;
+  height: 100%;
+  width: 60%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 75px;
+  /* border: 1px solid #444; */
+  position: relative;
+  font-family: "Poppins Extralight";
+}
+.text-header{
+  position: absolute;
+  display: flex;
+  top: 18%;
+  left: 16%;
+  gap: 15vw;
+  font-size: 26px;
+}
