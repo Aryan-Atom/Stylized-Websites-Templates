@@ -91,3 +91,28 @@ body {
   gap: 15vw;
   font-size: 26px;
 }
+#img-content{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  overflow-y: hidden;
+  flex-wrap: nowrap;
+}
+#img-content::-webkit-scrollbar{
+  display: none;
+}
+#img-content img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+   flex-shrink: 0;
+   
+}
+#img-1{
+    object-position: center 40%; 
+}#img-2{
+    object-position: center 25%; 
+}
+#img-3{
+    object-position: center 35%; 
+}
