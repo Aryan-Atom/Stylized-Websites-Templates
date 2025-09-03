@@ -78,6 +78,8 @@ body {
   bottom: 0;
   color: white;
   padding: 4vw 3vw 3vw 3vw;
+  /* background-color: rgba(0, 0, 0, 0.075);
+  backdrop-filter:blur(10px); */
 }
 #frame-1 {
   display: flex;
@@ -86,6 +88,9 @@ body {
   font-family: Monument;
   letter-spacing: 1px;
   font-size: 25px;
+}
+#frame-1 h1 {
+  /* mix-blend-mode:difference; */
 }
 #frame-1 h2 {
   width: 80px;
@@ -97,8 +102,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 1px 1px 0px 0.5px;
+  position: relative;
+  font-size: 24px;
 }
+#frame-1 h2::after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-bottom-right-radius: 100%;
+  box-shadow: 2px 2px 0px 1px white;
+}
+
 #frame-2 {
   display: flex;
   align-items: center;
@@ -110,4 +128,44 @@ body {
 #frame-2 img {
   width: 80px;
   height: 60px;
+}
+#scroll {
+  height: 40vh;
+  width: 100%;
+  /* background-color: red; */
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding: 0vw 3vw;
+}
+
+#container {
+  height: 100%;
+  width: fit-content;
+  /* background-color: blue; */
+  display: inline-block;
+  /* padding: 1vw; */
+  animation-name: image-animation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#scroll img {
+  /* display: none; */
+  height: 11vw;
+  border-radius: 50%;
+  width: 11vw;
+  object-fit: cover;
+  object-position: top center;
+  margin: 1vw;
+}
+
+@keyframes image-animation {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100%));
+  }
 }
