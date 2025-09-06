@@ -296,3 +296,6 @@ body {
   grid-row: 2/3;
   padding: 1vw 0vw 0vw 0vw;
 }
+@media (max-width:600px) {
+  
+}
