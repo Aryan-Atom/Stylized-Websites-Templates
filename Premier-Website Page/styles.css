@@ -297,5 +297,7 @@ body {
   padding: 1vw 0vw 0vw 0vw;
 }
 @media (max-width:600px) {
-  
+   body{
+    overflow-x: hidden;
+   }
 }
