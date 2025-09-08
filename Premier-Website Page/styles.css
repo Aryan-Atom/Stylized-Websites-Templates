@@ -320,10 +320,53 @@ body {
   #nav h2 {
     display: none;
   }
-
   #nav h1 {
     height: 100%;
     width: 42%;
     display: flex;
   }
+  #hero {
+  height: 50%;
+  width: 100%;
+  padding: 3vw 4vw;
+  position: relative;
+}
+
+#content video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  border: none;
+}
+#overlay {
+  padding: 3vw 3vw 3vw 3vw;
+}
+#frame-1 {
+  font-size: 14px;
+}
+#frame-1 h2 {
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+}
+#frame-1 h2::after {
+  content: "";
+  width: 19px;
+  height: 19px;
+  box-shadow: 1px 1px 0px 1px white;
+}
+
+#frame-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 2px solid white;
+  margin-top: 12px;
+  padding-top: 8px;
+}
+#frame-2 img {
+  width: 40px;
+  height: 30px;
+}
 }
