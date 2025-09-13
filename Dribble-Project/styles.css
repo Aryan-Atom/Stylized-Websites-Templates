@@ -114,6 +114,7 @@ body {
   border-radius: 50px;
 }
 #marquee {
+  margin-top: 50px;
   width: 100%;
   height: 400px;
   /* background-color: red; */
@@ -125,11 +126,17 @@ body {
 .elem {
   display: inline-block;
   height: 100%;
-  margin-right: 6px;
+  margin-right: 10px;
   width: 300px;
   background-color: royalblue;
   border-radius: 30px;
- animation: slideLeft 20s linear infinite;
+ animation: slideLeft 25s linear infinite;
+ overflow: hidden;
+}
+.elem img{
+width: 100%;
+height: 100%;
+object-fit: cover;
 }
 
 @keyframes slideLeft {
@@ -137,6 +144,6 @@ body {
     transform: translateX(0);
   }
   to {
-    transform: translateX(-3105px); 
+    transform: translateX(-3145px); 
   }
 }
