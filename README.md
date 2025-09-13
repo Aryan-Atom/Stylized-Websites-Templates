@@ -18,12 +18,12 @@ Each preview image gives you a quick idea of what the final page looks like.
 
 | Project Folder Name | Preview |
 |----------------------|---------|
-| [Dribble-Project](./Dribble-Project) | <img src="./Dribble-Project/Webpage-Image-1.png" width="350"/> |
-| [Flex Sample Shopping](./Flex%20Sample%20Shopping) | <img src="./Flex%20Sample%20Shopping/Webpage-Image.png" width="350"/> |
-| [Grid Fashion Page](./Grid%20Fashion%20Page) | <img src="./Grid%20Fashion%20Page/Webpage-Image.png" width="350"/> |
-| [Grid Responsive Page](./Grid%20Responsive%20Page) | <img src="./Grid%20Responsive%20Page/Webpage%20Image.png" width="350"/> |
-| [Premier-Website Page](./Premier-Website%20Page) | <img src="./Premier-Website%20Page/Webpage-Image-1.png" width="350"/> |
-| [Trendline-Fashion Page](./Trendline-Fashion%20Page) | <img src="./Trendline-Fashion%20Page/Webpage-Image.png" width="350"/> |
+| [Dribble-Project](./Dribble-Project) | <img src="./Dribble-Project/Webpage-Image-1.png" width="600"/> |
+| [Flex Sample Shopping](./Flex%20Sample%20Shopping) | <img src="./Flex%20Sample%20Shopping/Webpage-Image.png" width="600"/> |
+| [Grid Fashion Page](./Grid%20Fashion%20Page) | <img src="./Grid%20Fashion%20Page/Webpage-Image.png" width="600"/> |
+| [Grid Responsive Page](./Grid%20Responsive%20Page) | <img src="./Grid%20Responsive%20Page/Webpage%20Image.png" width="600"/> |
+| [Premier-Website Page](./Premier-Website%20Page) | <img src="./Premier-Website%20Page/Webpage-Image-1.png" width="600"/> |
+| [Trendline-Fashion Page](./Trendline-Fashion%20Page) | <img src="./Trendline-Fashion%20Page/Webpage-Image.png" width="600"/> |
 
 ---
 
