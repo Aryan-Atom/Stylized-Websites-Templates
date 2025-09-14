@@ -194,5 +194,5 @@ object-fit: cover;
   font-size: 20px;
 }
 .box:hover .box-bottom{
-  bottom: 0;
+  bottom: 0 ;
 }
